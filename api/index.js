@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.json());
 
-const friends = [];
+const friends = ["Bing Bong"];
 
 app.get("api/friends", function (req, res) {
   res.status(200).json;
